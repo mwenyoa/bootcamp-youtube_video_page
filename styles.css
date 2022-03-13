@@ -1,0 +1,43 @@
+html, body{
+margin: 0px;
+padding: 0px;
+}
+
+nav{
+    width: 100%;
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    display: flex;
+   background-color: aquamarine;
+    padding: 15px;
+    max-width: 500px;
+    width: 100%;
+
+}
+form>input[type="text"]{
+    width: 100%;
+    padding: 10px;
+}
+form>button[type="submit"]{
+  
+    padding: 10px;
+    justify-content: flex-end;
+}
+/*logo*/
+.logo{
+    color: brown;
+    padding: 10px;
+}
+ul{display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+ul>li{
+list-style: none;
+}
+i{
+    padding: 5px;
+}
